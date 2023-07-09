@@ -41,62 +41,52 @@
 							<div class="wrapper">
 								<div class="inner">
 									<h3 class="major">PROJECT DASHBOARD</h3>
+									<style>
+										.tableauPlaceholder {
+											position: relative;
+											left: -250px;
+										}
+									</style>
+									<div class='tableauPlaceholder' id='viz1688895593324' style='position: relative'><noscript><a href='#'><img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ne&#47;NewSFAnalysis&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='NewSFAnalysis&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ne&#47;NewSFAnalysis&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1688895593324');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1600px';vizElement.style.height='927px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1600px';vizElement.style.height='927px';} else { vizElement.style.width='100%';vizElement.style.height='2977px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
 									<h3 class="major">GOAL</h3>
-									Improve understanding of San Francisco and increase public safety by identifying high-risk areas and times through data analysis, and provide recommendations for reducing incident rates.<br>
+									Improve user's understanding of incidents in San Francisco by providing details on the time and location of each occurrence. Enhancing user's awareness 
+									will contribute to a safer experience while in the city.<br>
 
 									<br>
 					
 									<h3 class="major">QUESTIONS TO ANSWER</h3>
 									<p>
-										<strong>Crime Pattern Analysis:</strong><br>
+										
 										1. Identify the most frequent types of incidents based on the incident description.<br>
-										2. Analyze incident occurrences by police district or neighborhood to identify areas with higher crime rates.<br>
-										3. Determine the most common times (hourly, daily, or weekly) for incidents to occur.
+										2. Determine the most common times (hourly, daily, or weekly) for incidents to occur.<br>
+										3. Visualize incidents on a map using latitudes and longitudes to identify geographic hotspots of crime.<br>
+										4. Analyze incident data over time to identify temporal patterns and seasonality in crime rates.<br>
+										5. Examine changes in incident frequencies during specific time periods (e.g., weekends, holidays) to detect patterns.<br>
 									  </p>
 
-									  <p>
-										<strong>Hotspot Analysis:</strong><br>
-										1. Visualize incidents on a map using latitudes and longitudes to identify geographic hotspots of crime.<br>
-										2. Calculate the density of incidents in different intersections, police districts, or neighborhoods to pinpoint areas with a high concentration of incidents.<br>
-									  </p>
-									  
-									  <p>
-										<strong>Time Series Analysis:</strong><br>
-										1. Analyze incident data over time to identify temporal patterns and seasonality in crime rates.<br>
-										2. Examine changes in incident frequencies during specific time periods (e.g., weekends, holidays) to detect patterns.<br>
-									  </p>
-									  
-									  <p>
-										<strong>Social Network Analysis:</strong><br>
-										1. Explore connections between incidents by analyzing incident descriptions to identify potential links between offenders or modus operandi.<br>
-										2. Investigate any relationships between incidents occurring in the same neighborhood or police district.<br>
-									  </p>
-									  
-									  <p>
-										<strong>Predictive Analytics:</strong><br>
-										1. Build predictive models using historical incident data to forecast future crime occurrences in specific locations or time periods.<br>
-										2. Utilize features such as incident type, location, and time to predict the likelihood of incidents.<br>
-									  </p>
-									  
-									  <p>
-										<strong>Resource Allocation Optimization:</strong><br>
-										1. Analyze incident severity and location data to optimize the allocation of police officers, emergency services, or other resources.<br>
-										2. Identify high-demand areas where additional resources may be required based on incident frequencies or incident types.<br>
-									  </p>
-									  
-									  <p>
-										<strong>Comparative Analysis:</strong><br>
-										1. Compare incident patterns across different police districts, neighborhoods, or time periods to identify disparities or trends.<br>
-									  </p>
-									  
-
-		
-									<br>
 									<h3 class="major">DATA ANALYSIS</h3>
-
+									  	1. The most frequent types of incidents in San Francisco are Larceny Theft, Malicious Mischief, Assault, and Burglary, with Larceny Theft being the most common.
+									  	<br><br>
+										2. From 2018 to 2023, incidents in San Francisco predominantly occurred during the morning period, followed by the noon period, with the night period having the fewest incidents.
+										<br> <br>
+										3. Between 2018 and 2023, Fridays experienced the highest number of incidents and Wednesday has the second highest of incidents in San Francisco.
+										<br><br>
+										4. From 2018 to 2020, the Mission neighborhood had the highest rate of incidents in San Francisco. However, starting in 2021, the Tenderloin neighborhood became the neighborhood with the highest incident rate.
+										<br><br>
+										5. Among the years 2018 to 2023, 2018 had the highest rate of incidents. The incident rate gradually decreased each year, potentially influenced by lower crime rates during 2020 and 2021 due to the COVID-19 pandemic. However, in 2022, the incident rate started to rise again, although it remained lower compared to 2018 and showed an increase compared to 2021.
+										<br> <br>
+										6. When examining specific time periods, such as holidays from 2018 to 2022, incidents in San Francisco were most prevalent on the day of Hanukkah, surpassing other holidays in terms of occurrence. However, for the year 2023, with data available only until July, New Year had the highest number of incidents recorded so far.										<br><br>
 									
 									<h3 class="major">CONCLUSION</h3>
-									
+									<p>
+										The purpose of this dashboard is to provide users with a comprehensive understanding of the incidents occurring in San Francisco. It enables users to analyze the trends of incidents throughout the year, while also providing insights into the specific time and location of each incident type.
+										<br><br>
+										Currently, the top four incidents that have occurred most frequently in San Francisco are Larceny Theft, Malicious Mischief, Assault, and Burglary, surpassing the other 49 incident categories.
+										<br><br>
+										In terms of neighborhoods, Tenderloin and Mission have consistently experienced the highest number of incidents from 2018 to 2023. Users can gain insights into the occurrence of different incident types at specific times and locations.
+										<br><br>
+										Furthermore, the dashboard highlights that the Morning period and Friday are the times and days of the week when incidents occur most frequently. This information assists users in better understanding the patterns and trends associated with incidents in San Francisco.
+									</p>
 									
 									
 									<section class="features">
